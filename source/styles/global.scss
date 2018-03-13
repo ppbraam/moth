@@ -1,0 +1,22 @@
+// helpers
+@import '~normalize.css/normalize.css';
+@import 'variables';
+@import 'mixins';
+// foundation
+@import 'foundation/base';
+@import 'foundation/typography';
+
+body{
+    overflow: hidden;
+}
+
+#mount, #main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
