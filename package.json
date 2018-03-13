@@ -2,6 +2,12 @@
   "name": "boilerplate",
   "version": "0.1.0",
   "description": "",
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
   "main": "tasks/index.js",
   "scripts": {
     "start": "node tasks",
